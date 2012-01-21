@@ -11,7 +11,7 @@ gem 'haml-rails'
 gem 'twitter-bootstrap-rails'
 gem 'jquery-rails'
 gem 'sqlite3'
-
+gem 'activerecord-postgresql-adapter'
 
 # Gems used only for assets and not required
 # in production environments by default.
