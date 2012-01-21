@@ -11,7 +11,7 @@ gem 'haml-rails'
 gem 'twitter-bootstrap-rails'
 gem 'jquery-rails'
 gem 'sqlite3'
-
+gem 'pg'
 
 # Gems used only for assets and not required
 # in production environments by default.
@@ -42,5 +42,5 @@ end
 
 group :production do
   # gems specifically for Heroku go here
-  gem "pg"
+  # gem "pg"
 end
