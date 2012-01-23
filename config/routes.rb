@@ -1,6 +1,10 @@
 GetyourkliksCom::Application.routes.draw do
+  
   # The priority is based upon order of creation:
   # first created -> highest priority.
+
+  # used for pingdom keep-alive
+  match 'welcome/alive' => 'welcome#alive'
 
   # Sample of regular route:
   #   match 'products/:id' => 'catalog#view'
