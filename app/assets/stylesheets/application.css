@@ -6,3 +6,23 @@
  *= require twitter/bootstrap
  *= require_tree . 
 */
+
+body {
+	  
+}
+#header {
+    /* 
+    background-color: white;
+    background-color: rgba(255, 255, 255, 0.5);
+    */
+    width: 100%;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    transparent: 50%;
+}
+
+#footer {
+    padding-top: 10px;
+    text-align: right;
+    background-color: white;
+}

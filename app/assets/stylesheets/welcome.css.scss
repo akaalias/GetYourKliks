@@ -2,15 +2,36 @@
 // They will automatically be included in application.css.
 // You can use Sass (SCSS) here: http://sass-lang.com/
 
-body {
-}    
-
 #hero {
+    background-image: url(/assets/grid.jpg);
+    background-size: 100%;
+
       h1 {
        font-size: 4.2em;
        letter-spacing: -0.06em;
+       color: #444;
+       line-height: 1em;
       }	 
-      text-align: center;
+}
+
+#information {
+    background-image: url(/assets/wood_pattern.png);
+    background-color: white;
+    h2 {
+	text-shadow: 1px 1px white;
+    }
+}
+
+#preorder {
+    h2 {
+	text-align: center;
+    }
+    border-radius: 10px;
+    background-color: white;
+    padding: 20px;
+    .full {
+	width: 100%;	
+    }
 }
 
 .orange {
@@ -19,4 +40,12 @@ body {
 
 .green {
     color: #8DC63F;
+}
+
+.white {
+    color: white;
+}
+
+.align_right {
+    text-align: right;
 }
