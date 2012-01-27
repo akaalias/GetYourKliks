@@ -27860,3 +27860,453 @@ Served asset /wood_pattern.png - 304 Not Modified (0ms)
 
 Started GET "/assets/klik_white.png" for 127.0.0.1 at 2012-01-27 15:56:23 -0500
 Served asset /klik_white.png - 304 Not Modified (0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2012-01-27 15:57:17 -0500
+  Processing by WelcomeController#index as HTML
+Rendered welcome/index.html.haml within layouts/welcome (0.3ms)
+Completed 200 OK in 16ms (Views: 15.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2012-01-27 15:57:17 -0500
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/twitter/bootstrap.css?body=1" for 127.0.0.1 at 2012-01-27 15:57:17 -0500
+Served asset /twitter/bootstrap.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap.css?body=1" for 127.0.0.1 at 2012-01-27 15:57:17 -0500
+Served asset /bootstrap.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/welcome.css?body=1" for 127.0.0.1 at 2012-01-27 15:57:17 -0500
+Served asset /welcome.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2012-01-27 15:57:17 -0500
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2012-01-27 15:57:17 -0500
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-alerts.js?body=1" for 127.0.0.1 at 2012-01-27 15:57:17 -0500
+Served asset /twitter/bootstrap/bootstrap-alerts.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-dropdown.js?body=1" for 127.0.0.1 at 2012-01-27 15:57:17 -0500
+Served asset /twitter/bootstrap/bootstrap-dropdown.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-modal.js?body=1" for 127.0.0.1 at 2012-01-27 15:57:17 -0500
+Served asset /twitter/bootstrap/bootstrap-modal.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-twipsy.js?body=1" for 127.0.0.1 at 2012-01-27 15:57:17 -0500
+Served asset /twitter/bootstrap/bootstrap-twipsy.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-popover.js?body=1" for 127.0.0.1 at 2012-01-27 15:57:17 -0500
+Served asset /twitter/bootstrap/bootstrap-popover.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-scrollspy.js?body=1" for 127.0.0.1 at 2012-01-27 15:57:17 -0500
+Served asset /twitter/bootstrap/bootstrap-scrollspy.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-buttons.js?body=1" for 127.0.0.1 at 2012-01-27 15:57:17 -0500
+Served asset /twitter/bootstrap/bootstrap-buttons.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-tabs.js?body=1" for 127.0.0.1 at 2012-01-27 15:57:17 -0500
+Served asset /twitter/bootstrap/bootstrap-tabs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/twitter/bootstrap.js?body=1" for 127.0.0.1 at 2012-01-27 15:57:17 -0500
+Served asset /twitter/bootstrap.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/bootstrap.js?body=1" for 127.0.0.1 at 2012-01-27 15:57:17 -0500
+Served asset /bootstrap.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/welcome.js?body=1" for 127.0.0.1 at 2012-01-27 15:57:17 -0500
+Served asset /welcome.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2012-01-27 15:57:17 -0500
+Served asset /application.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/wood_pattern.png" for 127.0.0.1 at 2012-01-27 15:57:17 -0500
+Served asset /wood_pattern.png - 304 Not Modified (1ms)
+
+
+Started GET "/assets/klik_white.png" for 127.0.0.1 at 2012-01-27 15:57:17 -0500
+Served asset /klik_white.png - 304 Not Modified (0ms)
+
+
+Started GET "/assets/grid.jpg" for 127.0.0.1 at 2012-01-27 15:57:17 -0500
+Served asset /grid.jpg - 304 Not Modified (0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2012-01-27 15:58:12 -0500
+  Processing by WelcomeController#index as HTML
+Rendered welcome/index.html.haml within layouts/welcome (0.3ms)
+Completed 200 OK in 53ms (Views: 17.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2012-01-27 15:58:12 -0500
+Served asset /application.css - 304 Not Modified (8ms)
+
+
+Started GET "/assets/bootstrap.css?body=1" for 127.0.0.1 at 2012-01-27 15:58:12 -0500
+Served asset /bootstrap.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/welcome.css?body=1" for 127.0.0.1 at 2012-01-27 15:58:12 -0500
+Served asset /welcome.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2012-01-27 15:58:12 -0500
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/twitter/bootstrap.css?body=1" for 127.0.0.1 at 2012-01-27 15:58:12 -0500
+Served asset /twitter/bootstrap.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2012-01-27 15:58:12 -0500
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-alerts.js?body=1" for 127.0.0.1 at 2012-01-27 15:58:12 -0500
+Served asset /twitter/bootstrap/bootstrap-alerts.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-dropdown.js?body=1" for 127.0.0.1 at 2012-01-27 15:58:12 -0500
+Served asset /twitter/bootstrap/bootstrap-dropdown.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-modal.js?body=1" for 127.0.0.1 at 2012-01-27 15:58:12 -0500
+Served asset /twitter/bootstrap/bootstrap-modal.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-twipsy.js?body=1" for 127.0.0.1 at 2012-01-27 15:58:12 -0500
+Served asset /twitter/bootstrap/bootstrap-twipsy.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-scrollspy.js?body=1" for 127.0.0.1 at 2012-01-27 15:58:12 -0500
+Served asset /twitter/bootstrap/bootstrap-scrollspy.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-popover.js?body=1" for 127.0.0.1 at 2012-01-27 15:58:12 -0500
+Served asset /twitter/bootstrap/bootstrap-popover.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-tabs.js?body=1" for 127.0.0.1 at 2012-01-27 15:58:12 -0500
+Served asset /twitter/bootstrap/bootstrap-tabs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-buttons.js?body=1" for 127.0.0.1 at 2012-01-27 15:58:12 -0500
+Served asset /twitter/bootstrap/bootstrap-buttons.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/twitter/bootstrap.js?body=1" for 127.0.0.1 at 2012-01-27 15:58:12 -0500
+Served asset /twitter/bootstrap.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap.js?body=1" for 127.0.0.1 at 2012-01-27 15:58:12 -0500
+Served asset /bootstrap.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/welcome.js?body=1" for 127.0.0.1 at 2012-01-27 15:58:12 -0500
+Served asset /welcome.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2012-01-27 15:58:12 -0500
+Served asset /application.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/klik_white.png" for 127.0.0.1 at 2012-01-27 15:58:12 -0500
+Served asset /klik_white.png - 304 Not Modified (0ms)
+
+
+Started GET "/assets/grid.jpg" for 127.0.0.1 at 2012-01-27 15:58:12 -0500
+Served asset /grid.jpg - 304 Not Modified (0ms)
+
+
+Started GET "/assets/wood_pattern.png" for 127.0.0.1 at 2012-01-27 15:58:12 -0500
+Served asset /wood_pattern.png - 304 Not Modified (0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2012-01-27 16:00:54 -0500
+  Processing by WelcomeController#index as HTML
+Rendered welcome/index.html.haml within layouts/welcome (11.3ms)
+Completed 200 OK in 27ms (Views: 26.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2012-01-27 16:00:55 -0500
+Served asset /application.css - 304 Not Modified (10ms)
+
+
+Started GET "/assets/twitter/bootstrap.css?body=1" for 127.0.0.1 at 2012-01-27 16:00:55 -0500
+Served asset /twitter/bootstrap.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap.css?body=1" for 127.0.0.1 at 2012-01-27 16:00:55 -0500
+Served asset /bootstrap.css - 304 Not Modified (4ms)
+
+
+Started GET "/assets/welcome.css?body=1" for 127.0.0.1 at 2012-01-27 16:00:55 -0500
+Served asset /welcome.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2012-01-27 16:00:55 -0500
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2012-01-27 16:00:55 -0500
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-alerts.js?body=1" for 127.0.0.1 at 2012-01-27 16:00:55 -0500
+Served asset /twitter/bootstrap/bootstrap-alerts.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-dropdown.js?body=1" for 127.0.0.1 at 2012-01-27 16:00:55 -0500
+Served asset /twitter/bootstrap/bootstrap-dropdown.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-modal.js?body=1" for 127.0.0.1 at 2012-01-27 16:00:55 -0500
+Served asset /twitter/bootstrap/bootstrap-modal.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-twipsy.js?body=1" for 127.0.0.1 at 2012-01-27 16:00:55 -0500
+Served asset /twitter/bootstrap/bootstrap-twipsy.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-popover.js?body=1" for 127.0.0.1 at 2012-01-27 16:00:55 -0500
+Served asset /twitter/bootstrap/bootstrap-popover.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-scrollspy.js?body=1" for 127.0.0.1 at 2012-01-27 16:00:55 -0500
+Served asset /twitter/bootstrap/bootstrap-scrollspy.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-tabs.js?body=1" for 127.0.0.1 at 2012-01-27 16:00:55 -0500
+Served asset /twitter/bootstrap/bootstrap-tabs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-buttons.js?body=1" for 127.0.0.1 at 2012-01-27 16:00:55 -0500
+Served asset /twitter/bootstrap/bootstrap-buttons.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/twitter/bootstrap.js?body=1" for 127.0.0.1 at 2012-01-27 16:00:55 -0500
+Served asset /twitter/bootstrap.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/bootstrap.js?body=1" for 127.0.0.1 at 2012-01-27 16:00:55 -0500
+Served asset /bootstrap.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/welcome.js?body=1" for 127.0.0.1 at 2012-01-27 16:00:55 -0500
+Served asset /welcome.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2012-01-27 16:00:55 -0500
+Served asset /application.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/wood_pattern.png" for 127.0.0.1 at 2012-01-27 16:00:55 -0500
+Served asset /wood_pattern.png - 304 Not Modified (1ms)
+
+
+Started GET "/assets/grid.jpg" for 127.0.0.1 at 2012-01-27 16:00:55 -0500
+Served asset /grid.jpg - 304 Not Modified (0ms)
+
+
+Started GET "/assets/klik_white.png" for 127.0.0.1 at 2012-01-27 16:00:55 -0500
+Served asset /klik_white.png - 304 Not Modified (0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2012-01-27 16:03:14 -0500
+  Processing by WelcomeController#index as HTML
+Rendered welcome/index.html.haml within layouts/welcome (11.1ms)
+Completed 200 OK in 28ms (Views: 28.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/twitter/bootstrap.css?body=1" for 127.0.0.1 at 2012-01-27 16:03:14 -0500
+Served asset /twitter/bootstrap.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/welcome.css?body=1" for 127.0.0.1 at 2012-01-27 16:03:14 -0500
+Served asset /welcome.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap.css?body=1" for 127.0.0.1 at 2012-01-27 16:03:14 -0500
+Served asset /bootstrap.css - 304 Not Modified (3ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2012-01-27 16:03:14 -0500
+Served asset /application.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2012-01-27 16:03:14 -0500
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2012-01-27 16:03:14 -0500
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-alerts.js?body=1" for 127.0.0.1 at 2012-01-27 16:03:14 -0500
+Served asset /twitter/bootstrap/bootstrap-alerts.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-dropdown.js?body=1" for 127.0.0.1 at 2012-01-27 16:03:14 -0500
+Served asset /twitter/bootstrap/bootstrap-dropdown.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-modal.js?body=1" for 127.0.0.1 at 2012-01-27 16:03:14 -0500
+Served asset /twitter/bootstrap/bootstrap-modal.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-twipsy.js?body=1" for 127.0.0.1 at 2012-01-27 16:03:14 -0500
+Served asset /twitter/bootstrap/bootstrap-twipsy.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-popover.js?body=1" for 127.0.0.1 at 2012-01-27 16:03:14 -0500
+Served asset /twitter/bootstrap/bootstrap-popover.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-scrollspy.js?body=1" for 127.0.0.1 at 2012-01-27 16:03:14 -0500
+Served asset /twitter/bootstrap/bootstrap-scrollspy.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-tabs.js?body=1" for 127.0.0.1 at 2012-01-27 16:03:14 -0500
+Served asset /twitter/bootstrap/bootstrap-tabs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-buttons.js?body=1" for 127.0.0.1 at 2012-01-27 16:03:14 -0500
+Served asset /twitter/bootstrap/bootstrap-buttons.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/twitter/bootstrap.js?body=1" for 127.0.0.1 at 2012-01-27 16:03:14 -0500
+Served asset /twitter/bootstrap.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/bootstrap.js?body=1" for 127.0.0.1 at 2012-01-27 16:03:14 -0500
+Served asset /bootstrap.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/welcome.js?body=1" for 127.0.0.1 at 2012-01-27 16:03:14 -0500
+Served asset /welcome.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2012-01-27 16:03:14 -0500
+Served asset /application.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/klik_white.png" for 127.0.0.1 at 2012-01-27 16:03:14 -0500
+Served asset /klik_white.png - 304 Not Modified (0ms)
+
+
+Started GET "/assets/grid.jpg" for 127.0.0.1 at 2012-01-27 16:03:14 -0500
+Served asset /grid.jpg - 304 Not Modified (0ms)
+
+
+Started GET "/assets/wood_pattern.png" for 127.0.0.1 at 2012-01-27 16:03:14 -0500
+Served asset /wood_pattern.png - 304 Not Modified (0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2012-01-27 16:03:59 -0500
+  Processing by WelcomeController#index as HTML
+Rendered welcome/index.html.haml within layouts/welcome (10.4ms)
+Completed 200 OK in 26ms (Views: 25.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2012-01-27 16:03:59 -0500
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/twitter/bootstrap.css?body=1" for 127.0.0.1 at 2012-01-27 16:03:59 -0500
+Served asset /twitter/bootstrap.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap.css?body=1" for 127.0.0.1 at 2012-01-27 16:03:59 -0500
+Served asset /bootstrap.css - 304 Not Modified (2ms)
+
+
+Started GET "/assets/welcome.css?body=1" for 127.0.0.1 at 2012-01-27 16:03:59 -0500
+Served asset /welcome.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2012-01-27 16:03:59 -0500
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2012-01-27 16:03:59 -0500
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-alerts.js?body=1" for 127.0.0.1 at 2012-01-27 16:03:59 -0500
+Served asset /twitter/bootstrap/bootstrap-alerts.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-dropdown.js?body=1" for 127.0.0.1 at 2012-01-27 16:03:59 -0500
+Served asset /twitter/bootstrap/bootstrap-dropdown.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-modal.js?body=1" for 127.0.0.1 at 2012-01-27 16:03:59 -0500
+Served asset /twitter/bootstrap/bootstrap-modal.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-twipsy.js?body=1" for 127.0.0.1 at 2012-01-27 16:03:59 -0500
+Served asset /twitter/bootstrap/bootstrap-twipsy.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-popover.js?body=1" for 127.0.0.1 at 2012-01-27 16:03:59 -0500
+Served asset /twitter/bootstrap/bootstrap-popover.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-scrollspy.js?body=1" for 127.0.0.1 at 2012-01-27 16:03:59 -0500
+Served asset /twitter/bootstrap/bootstrap-scrollspy.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-tabs.js?body=1" for 127.0.0.1 at 2012-01-27 16:03:59 -0500
+Served asset /twitter/bootstrap/bootstrap-tabs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-buttons.js?body=1" for 127.0.0.1 at 2012-01-27 16:03:59 -0500
+Served asset /twitter/bootstrap/bootstrap-buttons.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/twitter/bootstrap.js?body=1" for 127.0.0.1 at 2012-01-27 16:03:59 -0500
+Served asset /twitter/bootstrap.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap.js?body=1" for 127.0.0.1 at 2012-01-27 16:03:59 -0500
+Served asset /bootstrap.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/welcome.js?body=1" for 127.0.0.1 at 2012-01-27 16:03:59 -0500
+Served asset /welcome.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2012-01-27 16:03:59 -0500
+Served asset /application.js - 304 Not Modified (2ms)
+
+
+Started GET "/assets/klik_white.png" for 127.0.0.1 at 2012-01-27 16:03:59 -0500
+Served asset /klik_white.png - 304 Not Modified (0ms)
+
+
+Started GET "/assets/grid.jpg" for 127.0.0.1 at 2012-01-27 16:03:59 -0500
+Served asset /grid.jpg - 304 Not Modified (0ms)
+
+
+Started GET "/assets/wood_pattern.png" for 127.0.0.1 at 2012-01-27 16:03:59 -0500
+Served asset /wood_pattern.png - 304 Not Modified (1ms)
