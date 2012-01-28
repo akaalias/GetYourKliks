@@ -1,7 +1,6 @@
 #hero
   .container
     %br
-    = image_tag('klik_white.png')
     %br
     .row 
       .span6
@@ -10,7 +9,6 @@
         %h2
           A Klik helps you clearly communicate to your team when you are in the zone and when you are available to talk.
       .span8
-    %br
     %br
     %br
     %br
@@ -48,21 +46,7 @@
           Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin ac enim enim, ut ultrices dolor. Duis a tincidunt arcu. Aliquam tincidunt condimentum dui ut egestas. Quisque congue nunc ac neque auctor pharetra. Maecenas a augue risus. Proin quis purus tortor. Nulla nec lacus nec dolor iaculis ultricies quis eget nibh. Vestibulum ac diam turpis, sed fermentum neque. Nulla vel est erat. Vestibulum vitae elit at tellus accumsan imperdiet.
 
       .span8.offset2
-        #preorder
-          %h2 Pre-order your Kliks Today!
-          %br
-          Your Email 
-          %br
-          %input.xlarge.full
-          %br
-          %br
-
-          Quantity
-          %br
-          %select.xlarge.full
-          %br
-          %br
-          %input{:type => "submit", :class => "btn primary large"}
+        = render :partial => "pre_orders/form"
         %hr
         %h2
           &ldquo;My Klik already paid for itself on the first day. I get fewer disruptions and can do better work. &ldquo;

@@ -7,16 +7,18 @@
   <%= csrf_meta_tags %>
 </head>
 <body>
+  <div id="header">
+    <div class="container">
+      <%= link_to(image_tag("klik_colors.png"), :action => :index, :controller => :welcome) %>
+    </div>
+  </div>
   <div id="content">
       <%= yield %>
   </div>
   <div id="footer">
     <div class="container">
       
-      A Workspice LLC Production, New York City, Copyright 2012 | 
-      <%= link_to 'Contact Us' %> |
-      <%= link_to 'Blog'  %>
-      
+      <%= render :partial => "layouts/footer_content" %>
     </div>
     <br/>
   </div>

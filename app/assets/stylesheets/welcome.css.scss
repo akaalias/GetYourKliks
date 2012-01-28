@@ -9,9 +9,14 @@
       h1 {
        font-size: 4.2em;
        letter-spacing: -0.06em;
-       color: #444;
+       color: white;
        line-height: 1em;
+	text-shadow: 1px 1px black;
       }	 
+      h2 {
+	  color: white;
+	text-shadow: 1px 1px black;
+      }
 }
 
 #information {

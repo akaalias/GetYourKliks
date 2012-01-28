@@ -1,7 +1,14 @@
 GetyourkliksCom::Application.routes.draw do
-  
-  # The priority is based upon order of creation:
-  # first created -> highest priority.
+
+  ActiveAdmin.routes(self)
+
+  devise_for :admin_users, ActiveAdmin::Devise.config
+
+  resources :pre_orders do
+    collection do 
+      get :thank_you
+    end
+  end
 
   # used for pingdom keep-alive
   match 'welcome/alive' => 'welcome#alive'

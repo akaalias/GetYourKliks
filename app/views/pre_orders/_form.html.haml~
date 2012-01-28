@@ -1,0 +1,16 @@
+= form_for @pre_order do |f|
+  -if @pre_order.errors.any?
+    #error_explanation
+      %h2= "#{pluralize(@pre_order.errors.count, "error")} prohibited this Pre-Order from being saved:"
+      %ul
+        - @pre_order.errors.full_messages.each do |msg|
+          %li= msg
+
+  = f.text_field :email, :value => (@pre_order.email || "Your Email"), :class => "xlarge full"
+  %br
+  %br
+  = select(:pre_order, :quantity, ["1", "2", "3"], {:prompt => "Please select a Quantity"}, {:class => "xlarge"})
+  %br
+  %br
+  %br
+  = f.submit(:value => "Place my Pre-Order", :class => "btn primary large")
