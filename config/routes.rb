@@ -13,6 +13,7 @@ GetyourkliksCom::Application.routes.draw do
   # used for pingdom keep-alive
   match 'welcome/alive' => 'welcome#alive'
   match 'welcome/placeholder' => 'welcome#placeholder'
+  match 'welcome/index' => 'welcome#index'
 
   # reset on launch
   root :to => 'welcome#placeholder'
