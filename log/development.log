@@ -58796,3 +58796,13 @@ Completed 200 OK in 6ms (Views: 5.6ms | ActiveRecord: 0.0ms)
 
 Started GET "/assets/klik_colors.png" for 127.0.0.1 at 2012-01-30 10:17:44 -0500
 Served asset /klik_colors.png - 304 Not Modified (0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2012-01-30 10:22:34 -0500
+  Processing by WelcomeController#placeholder as HTML
+Rendered welcome/placeholder.html.haml (0.6ms)
+Completed 200 OK in 5ms (Views: 4.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/klik_colors.png" for 127.0.0.1 at 2012-01-30 10:22:34 -0500
+Served asset /klik_colors.png - 304 Not Modified (0ms)
