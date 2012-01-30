@@ -2,9 +2,19 @@
 // They will automatically be included in application.css.
 // You can use Sass (SCSS) here: http://sass-lang.com/
 
+body {
+    background-color: white;
+}
+
+#header {
+    background-color: white;
+}
+
 #hero {
-    background-image: url(/assets/grid.jpg);
+    background-image: url(/assets/office1.jpg);
+    background-repeat: no-repeat;
     background-size: 100%;
+    background-color: white;
 
       h1 {
        font-size: 4.2em;

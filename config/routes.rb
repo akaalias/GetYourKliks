@@ -12,6 +12,10 @@ GetyourkliksCom::Application.routes.draw do
 
   # used for pingdom keep-alive
   match 'welcome/alive' => 'welcome#alive'
+  match 'welcome/placeholder' => 'welcome#placeholder'
+
+  # reset on launch
+  root :to => 'welcome#placeholder'
 
   # Sample of regular route:
   #   match 'products/:id' => 'catalog#view'
@@ -59,7 +63,7 @@ GetyourkliksCom::Application.routes.draw do
 
   # You can have the root of your site routed with "root"
   # just remember to delete public/index.html.
-  root :to => 'welcome#index'
+
 
   # See how all your routes lay out with "rake routes"
 

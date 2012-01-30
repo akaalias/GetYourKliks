@@ -7,13 +7,13 @@ ActiveAdmin::Dashboards.build do
   # == Simple Dashboard Section
   # Here is an example of a simple dashboard section
   #
-  #   section "Recent Posts" do
-  #     ul do
-  #       Post.recent(5).collect do |post|
-  #         li link_to(post.title, admin_post_path(post))
-  #       end
-  #     end
-  #   end
+     section "Recent Pre Orders" do
+       ul do
+         PreOrder.find(:all, :limit => 10, :order => "id desc" ).collect do |pre_order|
+           li link_to(pre_order.email, admin_pre_order_path(pre_order)) + " " + pre_order.quantity + " (" + time_ago_in_words(pre_order.created_at) + " ago.)"
+         end
+       end
+     end
   
   # == Render Partial Section
   # The block is rendered within the context of the view, so you can
