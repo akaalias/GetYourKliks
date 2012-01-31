@@ -13,31 +13,34 @@
           %span.orange in the zone.
 
       .span8
-    %br
-    %br
-    %br
-    %br
-    %br
-    %br
-    %br
-    %br
-    %br
-    %br
-    %br
-    %br
-    %br
-    %br
-    %br
+
 #information
   %br
   %br
   .container
     .row
-      .span6
+      .span8
+
+        #slideshow
+          .row
+            .span2
+              = link_to(image_tag('slideshow/1_small.jpg'), '/assets/slideshow/1_large.jpg', :class => 'slideshow', :rel => 'slideshow', :title => "A Title")
+            .span2
+              = link_to(image_tag('slideshow/2_small.jpg'), '/assets/slideshow/2_large.jpg', :class => 'slideshow', :rel => 'slideshow')
+            .span2
+              = link_to(image_tag('slideshow/3_small.jpg'), '/assets/slideshow/3_large.jpg', :class => 'slideshow', :rel => 'slideshow')
+            .span2
+              = link_to(image_tag('slideshow/4_small.jpg'), '/assets/slideshow/4_large.jpg', :class => 'slideshow', :rel => 'slideshow')
+          :javascript
+            $("a.slideshow").fancybox();
+
+        %hr
         %h2
           What are kliks?
         %p
           Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin ac enim enim, ut ultrices dolor. Duis a tincidunt arcu. Aliquam tincidunt condimentum dui ut egestas. Quisque congue nunc ac neque auctor pharetra. Maecenas a augue risus. Proin quis purus tortor. Nulla nec lacus nec dolor iaculis ultricies quis eget nibh. Vestibulum ac diam turpis, sed fermentum neque. Nulla vel est erat. Vestibulum vitae elit at tellus accumsan imperdiet.
+
+
 
         %h2
           How do kliks work?
@@ -49,9 +52,10 @@
         %p
           Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin ac enim enim, ut ultrices dolor. Duis a tincidunt arcu. Aliquam tincidunt condimentum dui ut egestas. Quisque congue nunc ac neque auctor pharetra. Maecenas a augue risus. Proin quis purus tortor. Nulla nec lacus nec dolor iaculis ultricies quis eget nibh. Vestibulum ac diam turpis, sed fermentum neque. Nulla vel est erat. Vestibulum vitae elit at tellus accumsan imperdiet.
 
-      .span8.offset2
-        = render :partial => "pre_orders/form"
         %hr
+        = render :partial => "pre_orders/form"
+
+      .span7.offset1
         %h2
           &ldquo;My Klik already paid for itself on the first day. I get fewer disruptions and can do better work. &ldquo;
         %h3 Alexis Rondeau, NYC
@@ -59,14 +63,8 @@
         %h2
           "It's amazing, so simple and effective. My Klik simply tells everyone what I'm up to without me having to explain. It's works just great."
         %h3 JD Stettin, NYC
-        %br
-        %h2
-          "It's a must-have. At this point, I feel naked if I don't have my Klik at work or in a coffeeshop. It just takes away the ambiguity of my state."
-        %h3 Aaron States, NYC
-        %br
-        %h2
-          "The Kliks of my team help me understand better when to engage in a conversation and when not. This makes managing a team so much better."
-        %h3 Kevin Darcy, NYC
+
+
   %br
   %br
   %br
