@@ -24,14 +24,9 @@
 
         #slideshow
           .row
-            .span2
-              = link_to(image_tag('slideshow/1_small.jpg'), '/assets/slideshow/1_large.jpg', :class => 'slideshow', :rel => 'slideshow', :title => "A Title")
-            .span2
-              = link_to(image_tag('slideshow/2_small.jpg'), '/assets/slideshow/2_large.jpg', :class => 'slideshow', :rel => 'slideshow')
-            .span2
-              = link_to(image_tag('slideshow/3_small.jpg'), '/assets/slideshow/3_large.jpg', :class => 'slideshow', :rel => 'slideshow')
-            .span2
-              = link_to(image_tag('slideshow/4_small.jpg'), '/assets/slideshow/4_large.jpg', :class => 'slideshow', :rel => 'slideshow')
+            - (1..10).each do |i|
+              .span2
+                = link_to(image_tag("slideshow/#{i}_90.jpg"), "/assets/slideshow/#{i}_800.jpg", :class => 'slideshow', :rel => 'slideshow')
           :javascript
             $("a.slideshow").fancybox();
 
