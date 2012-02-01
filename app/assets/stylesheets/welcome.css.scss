@@ -40,7 +40,14 @@ body {
     h2 {
 	text-shadow: 1px 1px white;
     }
+    #slideshow {
+	img {
+	    border-radius: 10px;
+	    width: 100%;
+	}
+    }
 }
+
 
 #preorder {
     h2 {
@@ -69,12 +76,5 @@ body {
 
 .align_right {
     text-align: right;
-}
-
-#slideshow {
-    img {
-	border-radius: 10px;
-	width: 100%;
-    }
 }
 
