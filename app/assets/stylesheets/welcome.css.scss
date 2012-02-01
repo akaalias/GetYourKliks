@@ -17,7 +17,7 @@ body {
     background-color: white;
     min-height: 600px;
       h1 {
-       font-size: 3.4em;
+       font-size: 4.2em;
        letter-spacing: -0.06em;
        color: white;
        line-height: 1em;
@@ -26,7 +26,12 @@ body {
       h2 {
 	  color: white;
 	text-shadow: 1px 1px black;
+        font-size: 2.0em;
       }
+      .underline {
+        border-bottom: 1px solid white;
+      }
+
 }
 
 #information {
