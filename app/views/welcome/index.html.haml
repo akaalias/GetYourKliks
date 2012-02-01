@@ -27,6 +27,8 @@
             - (1..10).each do |i|
               .span2
                 = link_to(image_tag("slideshow/#{i}_90.jpg"), "/assets/slideshow/#{i}_800.jpg", :class => 'slideshow', :rel => 'slideshow')
+                %br
+                %br
           :javascript
             $("a.slideshow").fancybox();
 
