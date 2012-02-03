@@ -46,6 +46,15 @@ body {
 	    width: 100%;
 	}
     }
+    #story{
+	font-size: 1.8em; 
+	line-height: 1.4em; 
+	font-weight: normal;
+	.highlight {
+	    background-color: #FFFF99;
+	    font-weight: bold;
+	}
+    }
 }
 
 
@@ -78,7 +87,3 @@ body {
     text-align: right;
 }
 
-.highlight {
-    background-color: #FFFF99;
-    font-weight: bold;
-}

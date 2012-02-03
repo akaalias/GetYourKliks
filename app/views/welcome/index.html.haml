@@ -25,17 +25,27 @@
       .span8
 
         #slideshow
+          %h2 So, what's a Klik?
+          %br
           .row
-            - (1..10).each do |i|
-              .span2
-                = link_to(image_tag("slideshow/#{i}_90.jpg"), "/assets/slideshow/#{i}_800.jpg", :class => 'slideshow', :rel => 'slideshow')
-                %br
-                %br
+            .span2
+              = link_to(image_tag("slideshow/8_90.jpg"), "/assets/slideshow/8_800.jpg", :class => 'slideshow', :rel => 'slideshow', :title => "This is a Klik. Green side up, you're available for collaboration.")
+              %br
+              %br
+            .span2
+              = link_to(image_tag("slideshow/5_90.jpg"), "/assets/slideshow/5_800.jpg", :class => 'slideshow', :rel => 'slideshow', :title => "Collaboration at the right time.")
+              %br
+              %br
+            .span2
+              = link_to(image_tag("slideshow/9_90.jpg"), "/assets/slideshow/9_800.jpg", :class => 'slideshow', :rel => 'slideshow', :title => "Orange side up when you want to focus." )
+            .span2
+              = link_to(image_tag("slideshow/4_90.jpg"), "/assets/slideshow/4_800.jpg", :class => 'slideshow', :rel => 'slideshow', :title => "Work without interruption.")
           :javascript
             $("a.slideshow").fancybox({cyclic: true});
 
+        %br
 
-        %p{:style => "font-size: 1.8em; line-height: 1.4em; font-weight: normal;"}
+        %p#story
           TBD: Story /
           Painpoint: Being interrupted while in the zone. Expensive in terms of concentration and productivity!
           Working together is great, except when you need to work on your own.
@@ -48,38 +58,7 @@
           %span.highlight office, coworking space, coffee shop, conference
           Solution (That's where Kliks come in, help send clear signals. Opt-in to communication with green, opt-out with orange. Network effect with your team, easy to explain, simple to use)
  
-          works in teams, non-verbal communication, create a zone around you, visible across the room, send a clear signal, 
-          Magnetic, easily attached, simple change of status, no danger to computers, 
-          top of your laptop, desk lamp, cubicle wall frame or anywhere it works for you.
 
-        %br
-
-        .row
-          .span4
-            %h3 Team Players
-            %p
-              Help your team to 
-              communicate clearly 
-              and 
-              avoid being interrupted 
-              at your times of productivity. It's simple and un-ambiguous!
-
-          .span4
-            %h3 Managers
-            %p
-              Help your team signal to you when it is a good time to talk and when they need to be left alone. Create the right time for you and your team.
-
-
-          .span4
-            %h3 Freelancers
-            %p
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus et vestibulum diam. Duis sit amet nunc risus, sollicitudin imperdiet lorem. Phasellus porttito
-
-          .span4
-            %h3 Developers
-            %p
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus et vestibulum diam. Duis sit amet nunc risus, sollicitudin imperdiet lorem. Phasellus porttito
- 
 
       .span7.offset1
         %h2
@@ -91,15 +70,10 @@
         %h3 JD Stettin, NYC
 
         %hr
-        %h2 
-          Features
-        %br
-        %ul
-          %li Easily attach your klik (There is no step 2)
-          %li Super simple to change status with a finger flick
-          %li Beautifully hand-made from cherry wood
-          %li Small but strong neodymium magnet
 
+        = image_tag("slideshow/10_800.jpg", :style => "width: 100%; border-radius: 10px;")
+
+    %br
     %hr
     %br
     %br
