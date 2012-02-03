@@ -10,10 +10,10 @@
           Work Flow.
         %h2
         %h2
-          Clearly signal to those around you when you are 
+          Clearly signal to your coworkers when you are
           %span.green available to talk
-          and when you are
-          %span.orange in your zone.
+          and when you need to 
+          %span.orange stay in your zone.
 
       .span8
 
@@ -40,23 +40,13 @@
               = link_to(image_tag("slideshow/9_90.jpg"), "/assets/slideshow/9_800.jpg", :class => 'slideshow', :rel => 'slideshow', :title => "Orange side up when you want to focus." )
             .span2
               = link_to(image_tag("slideshow/4_90.jpg"), "/assets/slideshow/4_800.jpg", :class => 'slideshow', :rel => 'slideshow', :title => "Work without interruption.")
-          :javascript
-            $("a.slideshow").fancybox({cyclic: true});
 
         %br
 
-        %p#story
-          TBD: Story /
-          Painpoint: Being interrupted while in the zone. Expensive in terms of concentration and productivity!
-          Working together is great, except when you need to work on your own.
-          Working in an office, coworking space or coffee shop 
-          can be difficult 
-          %span.highlight
-            when you really need to concentrate.
-          Situation (working concentratedly & Getting interrupted, pulled out of your zone & necessary communication for next steps)
-          Setting (
-          %span.highlight office, coworking space, coffee shop, conference
-          Solution (That's where Kliks come in, help send clear signals. Opt-in to communication with green, opt-out with orange. Network effect with your team, easy to explain, simple to use)
+        %p.story
+          Working together is great - except when you need to do work on your own. Do you remember the last time you were in the zone, finally concentrating and plowing through work? And then, right at the peak of your productivity, a pertinent request, maybe even an innocent greeting from a trusted colleague - killed it. Your momentum gone, you blinked at the screen and went to water cooler. It would be hours (maybe days) before you got back into that kind of zone. 
+        %p.story
+          No longer. You, and everyone else you work with, can signal your status with a klik. Opt-in to collaboration and co-working at the right time for you and your colleagues.  And opt-out when you need to zone in on your work.  Klik with your coworkers.
  
 
 
@@ -71,7 +61,7 @@
 
         %hr
 
-        = image_tag("slideshow/10_800.jpg", :style => "width: 100%; border-radius: 10px;")
+        = link_to(image_tag("slideshow/10_800.jpg", :style => "width: 100%; border-radius: 10px;"), "/assets/slideshow/10_800.jpg", :class => 'slideshow', :rel => 'slideshow', :title => "Your Klik: Beautifully hand-crafted in cherry wood." )
 
     %br
     %hr
@@ -89,3 +79,5 @@
   %br
   %br
   %br
+  :javascript
+    $("a.slideshow").fancybox({cyclic: true});
