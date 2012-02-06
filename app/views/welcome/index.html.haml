@@ -44,13 +44,18 @@
               = link_to(image_tag("slideshow/5_90.jpg"), "/assets/slideshow/5_800.jpg", :class => 'slideshow', :rel => 'slideshow', :title => "Work without interruption.")
 
         %br
+        %p.story.bold
+          %span.green
+            Working together 
+          is great &mdash; except when you need to do 
+          %span.orange
+            work on your own. 
 
+        %hr
         %p.story
-          %span.highlight
-            Working together is great &mdash; except when you need to do work on your own. 
-          %br
-          %br
-          Do you remember the last time you were in the zone, finally concentrating and plowing through work? And then, right at the peak of your productivity, a pertinent request, maybe even an innocent greeting from a trusted colleague &mdash; killed it. Your momentum gone, you blinked at the screen and went to water cooler. It would be hours (maybe days) before you got back into that kind of zone. 
+          Do you remember the last time you were in the zone, finally concentrating and plowing through work? And then, right at the peak of your productivity, a pertinent request, maybe even an innocent greeting from a trusted colleague &mdash; killed it. 
+        %p.story
+          Your momentum gone, you blinked at the screen and went to water cooler. It would be hours (maybe days) before you got back into that kind of zone... 
         %p.story
           No longer. You, and everyone else you work with, can signal your status with a klik. Opt-in to collaboration and co-working at the right time for you and your colleagues.  And opt-out when you need to zone in on your work.  Klik with your coworkers.
  
@@ -59,10 +64,12 @@
           &ldquo;My Klik already paid for itself on the first day. I get fewer disruptions and can do better work. &ldquo;
         %h3 Tom Henderson, Developer, NYC
         %br
+        %br
         %h2
           &ldquo;It's amazing, so simple and effective. My Klik simply tells everyone what I'm up to without me having to explain. It's works just great.&ldquo;
-        %h3 Jamie Rothstein, Manager, NYC
+        %h3 Chelsea Rothstein, Manager, NYC
 
+        %br
         %br
         %h2
           &ldquo;Just get your kliks. They work.&ldquo;
@@ -76,12 +83,13 @@
     %hr
     %br
     %br
+
     .row
-      .span3
+      .span4
         &nbsp;
-      .span9
+      .span8
         = render :partial => "pre_orders/form"
-      .span3
+      .span4
         &nbsp;
 
 
