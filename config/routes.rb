@@ -14,6 +14,7 @@ GetyourkliksCom::Application.routes.draw do
   match 'welcome/alive' => 'welcome#alive'
   match 'welcome/placeholder' => 'welcome#placeholder'
   match 'welcome/index' => 'welcome#index'
+  match 'welcome/about' => 'welcome#about'
 
   # reset on launch
   root :to => 'welcome#placeholder'

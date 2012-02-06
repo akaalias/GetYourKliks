@@ -9,6 +9,9 @@ class WelcomeController < ApplicationController
     @pre_order = PreOrder.new
   end
 
+  def about
+  end
+
   # used for pingdom alive
   def alive
     render :layout => false

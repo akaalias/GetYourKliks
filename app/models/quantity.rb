@@ -1,5 +1,5 @@
 class Quantity 
   def self.amounts
-    return ["3 - 5 Kliks", "6 - 10 Kliks", "11 - 20 Kliks", "More than 20 Kliks"]
+    return [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, "More than 20"]
   end
 end

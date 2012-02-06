@@ -16,36 +16,47 @@ body {
     background-size: 100%;
     background-color: white;
     min-height: 600px;
-      h1 {
+    h1 {
        font-size: 4.2em;
        letter-spacing: -0.06em;
        color: white;
        line-height: 1em;
-	text-shadow: 1px 1px black;
-      }	 
-      h2 {
-	  color: white;
+       text-shadow: 1px 1px black;
+    }	 
+    h2 {
+	color: white;
 	text-shadow: 1px 1px black;
         font-size: 2.0em;
-      }
-      .underline {
+    }
+    .underline {
         border-bottom: 1px solid white;
-      }
-
+    }
 }
 
 #information {
-    background-image: url(/assets/wood_pattern.png);
     background-color: white;
     h2 {
-	text-shadow: 1px 1px white;
+	text-shadow: 1px 1px #ccc;
     }
     #slideshow {
+    }
+
 	img {
 	    border-radius: 10px;
 	    width: 100%;
+	    -moz-box-shadow: 0 0 4px 4px #ddd;
+	    -webkit-box-shadow: 0 0 4px 4px #ddd;
+	    box-shadow: 0 0 4px 4px #ddd;
 	}
-    }
+
+	img:hover {
+	    border-radius: 10px;
+	    width: 100%;
+	    -moz-box-shadow: 0 0 4px 4px #ccc;
+	    -webkit-box-shadow: 0 0 4px 4px #ccc;
+	    box-shadow: 0 0 4px 4px #ccc;
+	}
+
     .story{
 	font-size: 1.8em; 
 	line-height: 1.4em; 
