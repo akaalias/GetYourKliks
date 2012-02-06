@@ -13,6 +13,8 @@ body {
 }
 
 #top {
+    border-top: 10px solid #fcfcfc;
+
     width: 100%;
     padding-top: 20px;
     padding-bottom: 20px;
@@ -37,6 +39,7 @@ body {
 
 
 #footer {
+    border-top: 10px solid #FCFCFC;
     padding-top: 10px;
     text-align: right;
     background-color: white;
