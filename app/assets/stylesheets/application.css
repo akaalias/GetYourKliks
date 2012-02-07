@@ -45,6 +45,12 @@ body {
     background-color: white;
 }
 
+#footer a {
+    color: #444;
+    font-weight: bold;
+    text-decoration: none;
+}
+
 #error_explanation {
     border: 2px solid #FE4365;   
     padding: 10px;
