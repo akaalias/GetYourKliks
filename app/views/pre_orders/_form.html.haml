@@ -1,11 +1,11 @@
 = form_for @pre_order do |f|
   %h1 
-    Pre-order your 
+    Let us notify you when your
     != klik_logotype(true)
-    today!
+    are available
   -if @pre_order.errors.any?
     #error_explanation
-      %h3= "Ooops. We can't save your Pre-Order because: "
+      %h3= "Ooops. We can't save your info yet because: "
       %br
       %ul
         - @pre_order.errors.full_messages.each do |msg|
@@ -14,9 +14,9 @@
   = f.text_field :email, :value => (@pre_order.email || "Your Email"), :class => "xlarge", :style => "width: 90%;"
   %br
   %br
-  = select(:pre_order, :quantity, Quantity.amounts, {:prompt => "Please select your quantity of kliks"}, {:class => "xlarge", :style => "width: 95%"})
+  = select(:pre_order, :quantity, Quantity.amounts, {:prompt => "How many kliks are you interested to buy?"}, {:class => "xlarge", :style => "width: 95%"})
   %br
   %br
   %br
   %center
-    = f.submit(:value => "Place my Pre-Order", :class => "btn primary large")
+    = f.submit(:value => "Submit", :class => "btn primary large")

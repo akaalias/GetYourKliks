@@ -10,11 +10,12 @@
           Work Flow.
         %h2
         %h2
-          Let your coworkers know 
-          %br 
+          Show your team
           when you are
           %span.green available to talk
-          and when you need to 
+          and when 
+          %br
+          you want to 
           %span.orange stay in your zone.
 
       .span8
@@ -47,9 +48,9 @@
         %p.story.bold
           %span.green
             Working together 
-          is great &mdash; except when you need to do 
+          is great &mdash; except when you need to
           %span.orange
-            work on your own. 
+            do work on your own. 
 
         %hr
         %br
@@ -61,27 +62,24 @@
           Your momentum gone, you blinked at the screen and went to the water cooler. It would be hours (maybe days) before you got back into that kind of zone... 
 
         %p.story
-          No longer. You, and everyone else you work with, can signal your status with a klik. Opt-in to collaboration and co-working at the right time for you and your colleagues.  And opt-out when you need to zone in on your work.  Klik with your coworkers.
+          No longer. You, and everyone else you work with, can signal your status with a 
+          != klik_logotype(false) + "." 
+          Opt-in to collaboration and co-working at the right time for you and your colleagues.  And opt-out when you need to zone in on your work.  
+
 
         %p.story
-          Use your kliks when and whereever you need your zone:
-          At the office, at home, in your favorite coffee shop and coworking space!
+          Simply 
+          != klik_logotype(false)
+          with your coworkers.
+
  
       .span7.offset1
         %h2
-          &ldquo;My Klik already paid for itself on the first day. I get fewer disruptions and can do better work. &ldquo;
-        %h3 Tom Henderson, Developer, NYC
+          &ldquo;My Klik already paid for itself on the first day. I get fewer disruptions and can do better work.&ldquo;
+        %h3 
+          Walter Hessert, CEO, 
+          = link_to 'DerbyJackpot', 'http://derbyjackpot.com'
         %br
-        %br
-        %h2
-          &ldquo;It's amazing, so simple and effective. My Klik simply tells everyone what I'm up to without me having to explain. It's works just great.&ldquo;
-        %h3 Chelsea Rothstein, Manager, NYC
-
-        %br
-        %br
-        %h2
-          &ldquo;Just get your kliks. They work.&ldquo;
-        %h3 Rahul Singhal, Manager, NYC
 
         %hr
         %br
@@ -93,11 +91,11 @@
     %br
 
     .row
-      .span4
+      .span3
         &nbsp;
-      .span8
+      .span10
         = render :partial => "pre_orders/form"
-      .span4
+      .span3
         &nbsp;
 
 

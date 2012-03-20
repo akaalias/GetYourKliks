@@ -17,7 +17,7 @@ GetyourkliksCom::Application.routes.draw do
   match 'welcome/about' => 'welcome#about'
 
   # reset on launch
-  root :to => 'welcome#placeholder'
+  root :to => 'welcome#index'
 
   # Sample of regular route:
   #   match 'products/:id' => 'catalog#view'
