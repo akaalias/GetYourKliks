@@ -21,39 +21,32 @@
       .span8
 
 #information
-  %br
+  .container
+    %br
+    %br
+    .row
+      .span4
+        = link_to(image_tag("slideshow/2_220.jpg"), "/assets/slideshow/2_800.jpg", :class => 'slideshow', :rel => 'slideshow', :title => "This is a Klik. Green side up, you're available for collaboration.")
+      .span4
+        = link_to(image_tag("slideshow/3_220.jpg"), "/assets/slideshow/3_800.jpg", :class => 'slideshow', :rel => 'slideshow', :title => "Collaboration at the right time.")
+      .span4
+        = link_to(image_tag("slideshow/4_220.jpg"), "/assets/slideshow/4_800.jpg", :class => 'slideshow', :rel => 'slideshow', :title => "Orange side up when you want to focus." )
+      .span4
+        = link_to(image_tag("slideshow/5_220.jpg"), "/assets/slideshow/5_800.jpg", :class => 'slideshow', :rel => 'slideshow', :title => "Work without interruption.")
   %br
   %br
   .container
     .row
       .span8
-
-        #slideshow
-          .row
-            .span4
-              = link_to(image_tag("slideshow/2_220.jpg"), "/assets/slideshow/2_800.jpg", :class => 'slideshow', :rel => 'slideshow', :title => "This is a Klik. Green side up, you're available for collaboration.")
-              %br
-              %br
-            .span4
-              = link_to(image_tag("slideshow/3_220.jpg"), "/assets/slideshow/3_800.jpg", :class => 'slideshow', :rel => 'slideshow', :title => "Collaboration at the right time.")
-              %br
-              %br
-            .span4
-              = link_to(image_tag("slideshow/4_220.jpg"), "/assets/slideshow/4_800.jpg", :class => 'slideshow', :rel => 'slideshow', :title => "Orange side up when you want to focus." )
-            .span4
-              = link_to(image_tag("slideshow/5_220.jpg"), "/assets/slideshow/5_800.jpg", :class => 'slideshow', :rel => 'slideshow', :title => "Work without interruption.")
-
-        %br
-        %hr
-        %p.story.bold
+        %h1
           %span.green
             Working together 
-          is great &mdash; except when you need to
+          is great &mdash; 
+          except when you need to
           %span.orange
             do work on your own. 
 
         %hr
-        %br
 
         %p.story
           Do you remember the last time you were in the zone, finally concentrating and plowing through work? And then, right at the peak of your productivity, a pertinent request, maybe even an innocent greeting from a trusted colleague &mdash; killed it. 
@@ -70,21 +63,36 @@
         %p.story
           Simply 
           != klik_logotype(false)
-          with your coworkers.
+          with the people around you.
 
  
       .span7.offset1
-        %h2
-          &ldquo;My Klik already paid for itself on the first day. I get fewer disruptions and can do better work.&ldquo;
-        %h3 
-          Walter Hessert, Co-Founder, 
-          = link_to 'DerbyJackpot', 'http://derbyjackpot.com'
-        %br
-
-        %hr
-        %br
         = link_to(image_tag("slideshow/6_800.jpg", :style => "width: 100%; border-radius: 10px;"), "/assets/slideshow/6_800.jpg", :class => 'slideshow', :rel => 'slideshow', :title => "Your Klik: Beautifully hand-crafted in cherry wood." )
+        %hr
+        .places
+          %h1
+            Create your zone at
+            the office, coworking space, coffee shop and at school
+        %hr
+        .quotes
+          .quote
+            %h3
+              &ldquo;It's simple, and it works. The Kliks allow my team and me to effectively communicate without having to say anything.&ldquo;
+            %br
+            %p.author 
+              Alexis Rondeau, Co-Founder, NYC
+              = link_to 'PercentMobile', 'http://percentmobile.com'
+          %br
+          .quote
+            %h4
+              &ldquo;My Klik already paid for itself on the first day. I get far less disruptions and can get work done easier.&ldquo;
+            %br
+            %p.author 
+              Walter Hessert, Co-Founder, NYC
+              = link_to 'DerbyJackpot', 'http://derbyjackpot.com'
+            %br
 
+        
     %br
     %hr
     %br
