@@ -1,0 +1,2 @@
+class AbingoDashboardController < ApplicationController
+end

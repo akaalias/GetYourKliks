@@ -18,6 +18,9 @@ GetyourkliksCom::Application.routes.draw do
 
   # reset on launch
   root :to => 'welcome#index'
+ 
+  #resources :subscriptions, :only => [:new, :create]
+  match 'abingo(/:action(/:id))', :to => 'abingo_dashboard', :as => :abingo
 
   # Sample of regular route:
   #   match 'products/:id' => 'catalog#view'

@@ -8,6 +8,7 @@ class PreOrdersController < ApplicationController
   def create
     @pre_order = PreOrder.new(params[:pre_order])
     if @pre_order.save
+      bingo! 'pre_order'
       redirect_to :action => :thank_you
     else
       render :new
