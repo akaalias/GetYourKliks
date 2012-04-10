@@ -1,8 +1,41 @@
 #information
   .container
     .row
-    .span8
-      %h1 About Klik
-      %p
-	Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam suscipit tellus ut lacus posuere sagittis sit amet a sem. Morbi quis neque nec ligula porttitor mollis ac et lectus. Praesent eu purus lorem, ut euismod libero. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Maecenas quam justo, placerat sit amet venenatis elementum, venenatis vitae erat. Nullam sit amet est a dui sagittis iaculis quis vitae felis. Praesent faucibus, nisi nec vulputate egestas, ligula est euismod lectus, at tempus mi quam ac nunc. Aliquam sit amet ante vel massa auctor pulvinar. Sed diam urna, faucibus non vulputate at, tincidunt non ipsum. Donec rhoncus, arcu id ultricies ultricies, lectus sapien porttitor odio, vitae posuere neque odio eget mauris. Duis ornare dolor vehicula nunc commodo cursus quis at dolor.
+      .span8
+        %br
+        %h1 How did we get here?
+        %br
+        %p.story
+          The klik was conceived in response to a problem we shared at our respective places of work. We were both enjoying the collaborative environments in our open-office spaces, but also we both suffered from the setbacks: Ill-timed questions, comments and interjections from well-meaning colleagues was ruining our work flow, but there were no doors to close and by the time we would explain that we were busy, it would be too late, we were already out of ‘the zone’.
+ 
+        %br
+        %p.story
+          Behold the klik, a real-time status indicator. Click it onto your laptop, desk or lamp and let your friends, colleagues and housemates know when you are happy to talk and when you need to be left undisturbed. 
+        %br
+        %p.story
+          Small enough to fit in your pocket, bright enough to be seen from across the room and unambiguous enough for all to understand, the klik communicates your personal space needs for you.
+        %br
+        %p.story  
+          This began with Alexis coloring plastic disks (yellow and purple?) and turned into us laser cutting, hand painting and finishing these lovely wooden squares you see today. 
 
+        %br
+        %p.story
+          We think this as an exciting new communication tool for all. Opt in to collaborate, opt out to stay in your zone. 
+        %p.story 
+          Klik with the people around you.
+
+      .span8
+        %br
+        = link_to(image_tag("team.jpg", :style => "width: 100%; border-radius: 10px;"), "/assets/team.jpg", :class => 'slideshow', :rel => 'slideshow', :title => "JD Stettin and Alexis Rondeau." )
+        %hr
+        .row
+          - for i in 1..11 do
+            .span2
+              = link_to(image_tag("makingof/#{i}_220.jpg", :style => "width: 100%; border-radius: 10px;"), "/assets/makingof/#{i}_800.jpg", :class => 'slideshow', :rel => 'slideshow', :title => "" )
+              %br
+              %br
+
+
+
+:javascript
+  $("a.slideshow").fancybox({cyclic: true});
