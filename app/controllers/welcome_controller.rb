@@ -10,6 +10,7 @@ class WelcomeController < ApplicationController
   end
 
   def about
+    @pre_order = PreOrder.new
   end
 
   # used for pingdom alive
